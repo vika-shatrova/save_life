@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Спаси жизнь</title>
+</head>
+
+<body>
+
+<h1>Волонтерство</h1>
+<hr>
+<h1>Заявка</h1>
+<p>Отправьте нам заявку о том, что готовы помочь. 
+   Когда нам будет необходима помощь, мы позвоним вам.</p>
+
+<style>
+   #text {
+    width: 445px;
+    height: 40px; 
+   } 
+   #tel {
+    width: 445px; 
+    height: 40px; 
+   } 
+   #notice {
+    width: 445px; 
+    height: 76px; 
+   } 
+  
+  </style>
+<form method="usename" >
+   <p><input  id="text" name="usename" type="text" value="Фамилия и Имя"></p>
+  </form>
+  <form method="tel" >
+   <p><input id="tel" name="tel" type="tel" value="Номер телефона"></p>
+  </form>
+<p>Обязательное поле для заполнения</p>
+
+<label>
+   <input type="radio" name="help"> Хочу помогать на постоянной основе (расписание 
+   <br> можно подобрать так, как будет вам удобно) 
+   <p><input type="radio" name="help"> Готов помогать иногда. 
+      Хочу выбрать удобное для меня время</p> 
+</label>
+
+
+
+<form method="notice" >
+   <p><input id="notice" name="notice" type="text" value="Замечания"></p>
+  </form>
+
+<p><input type="button" value="Оставить заявку"></p>
+<p><input type="button" value="Отмена"></p>
+
+</body>
+
+</html>

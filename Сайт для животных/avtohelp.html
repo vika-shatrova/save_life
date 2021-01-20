@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Спаси жизнь</title>
+</head>
+
+<body>
+
+<h1>Автопомощь</h1>
+<hr>
+<h1>Заявка</h1>
+<p>Отправьте нам заявку о том, что готовы помочь. 
+   Когда нам будет необходима помощь в транспортировке, 
+   мы позвоним вам.</p>
+
+<style>
+   #text {
+    width: 445px;
+    height: 40px; 
+   } 
+   #tel {
+    width: 445px; 
+    height: 40px; 
+   } 
+   #notice {
+    width: 445px; 
+    height: 76px; 
+   } 
+  
+  </style>
+<form method="usename" >
+   <p><input  id="text" name="usename" type="text" value="Фамилия и Имя"></p>
+  </form>
+  <form method="tel" >
+   <p><input id="tel" name="tel" type="tel" value="Номер телефона"></p>
+  </form>
+<p>Обязательное поле для заполнения</p>
+<h2>Выберите удобное время, когда вы сможете нам помочь</h2>
+
+<input type="date" id="start" name="date"
+       value="Дата / период"
+       min="2021-01-01" max="2031-12-31">
+<input type="time" id="start" name="time"
+       value="Время">
+
+<p><img src="img/+.png"> Добавить дату и время</p>  
+
+<label>
+   <input type="checkbox" name="days"> В любой будний день 
+   <p><input type="checkbox" name="days"> В любой выходной день</p> 
+</label>
+
+<h2>Выберите вид автопомощи</h2>
+<label>
+   <input type="checkbox" name="days"> Доставка еды, медикаментов и других небольших вещей
+   <p><input type="checkbox" name="days"> Доставка сена или соломы, 
+   строительных материлов 
+   <br> для будок и других крупногабаритных вещей</p> 
+   <p><input type="checkbox" name="days"> Транспортировка небольших собак и котов</p> 
+   <p><input type="checkbox" name="days"> Транспортировка больших собак</p> 
+</label>
+
+<form method="notice" >
+   <p><input id="notice" name="notice" type="text" value="Замечания"></p>
+  </form>
+
+<p><input type="button" value="Оставить заявку"></p>
+<p><input type="button" value="Отмена"></p>
+
+</body>
+
+</html>

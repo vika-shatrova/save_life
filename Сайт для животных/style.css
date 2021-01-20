@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:   url('/fonts/Gilroy-Bold.woff') format('woff2'),
+  url('/fonts/gilroy-bold.woff2') format('woff');
+}
+  
+@font-face {
+  font-family: "Gilroy-LightItalic";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:  url('/fonts/Gilroy-LightItalic.woff') format('woff2'),
+  url('/fonts/gilroy-lightitalic.woff2') format('woff');
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:  url('/fonts/Gilroy-Medium.woff') format('woff2'),
+  url('/fonts/gilroy-medium.woff2') format('woff');
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:   url('/fonts/Gilroy-Regular.woff') format('woff2'),
+  url('/fonts/gilroy-regular.woff2') format('woff');
+}
+ 
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:    url('/fonts/Gilroy-SemiBold.woff') format('woff2'),
+  url('/fonts/gilroy-semibold.woff2') format('woff');
+}
+   
+ 
+ 
+
+body {
+  margin: 10px;
+  min-width: 960px;
+  font-family: "Gilroy-Bold", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  
+}
+
+.container {
+  max-width: 1146px;
+  margin: 0 auto;
+}
+
+.page-header{
+  position: absolute;
+  width: 100vw;
+  top: 0;
+}
+
+nav {
+  font-family: "Gilroy-SemiBold", "Helvetica", "Arial", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 46px;
+  }
+
+.nav-group {
+  display: flex;
+  align-items: centers;
+}
+
+.mr-32{
+  margin-right: 32px;
+}
+
+.mr-24{
+  margin-right: 24px;
+}
+
+.rectangle {
+  height: 40px;
+  width: 40px;
+  background: #C4C4C4;
+  display: flex;
+  align-items: center;
+}
+
+.rectangle img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.image{
+  display: inline;
+  margin-left: 97px;
+  height: 150px;
+  width: 150px; 
+  border-radius: 100px;
+  border: 3px solid rgb(13, 15, 13); /* Параметры рамки */
+  box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+.section2{
+  text-align: center;
+  height: 150px;
+  width: 150px; 
+  border-radius: 100px;
+  border: 3px solid rgb(13, 15, 13); /* Параметры рамки */
+  box-shadow: 0 0 7px #666; /* Параметры тени */
+  margin-left: 604px;
+}
+.descriptionImg {
+  margin-left: 97px;
+}
+
+.title {
+  max-width: 1146px;
+  margin: 137px auto;  
+  font-family: "Gilroy-Bold", "Helvetica", "Arial", sans-serif;
+  font-size: 72px;
+}
+
+.title-name {
+  font-family: "Gilroy-Lightitalic", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.title-mission {
+  font-family: "Gilroy-SemiBold", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.title-helpnow {
+  font-family: "Gilroy-SemiBold", "Helvetica", "Arial", sans-serif;
+  font-size: 24px;
+}
+
+.bigKindHearts-title {
+  font-family: "Gilroy-SemiBold", "Helvetica", "Arial", sans-serif;
+  font-size: 28px;
+}
+
+.bigKindHearts-about-us{
+  font-family: "Gilroy-Regular", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.bigKindHearts-another-help {
+  font-family: "Gilroy-Regular", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+
+.footerNav {
+ 
+  margin-right: 20px; 
+  }
+
+
+
+.container2 {
+  max-width: 1146px;
+  margin: 0 auto;
+  text-align: left;
+ }
+ 
+ .title2{
+  text-align: center;
+ }
+ .select2{
+  text-align: right;
+ }
+
+
+ .selectedPet{
+  text-align:left;
+  height: 150px;
+  width: 150px; 
+  border-radius: 100px;
+  border: 3px solid rgb(13, 15, 13); /* Параметры рамки */
+  box-shadow: 0 0 7px #666; /* Параметры тени */
+  
+}
+ 
